@@ -3,6 +3,7 @@ Login and Registration form using flask and MySQL
 
 Install requirment libraries
 pip3 install flask
+
 pip3 Install Flask-MySQLdb
 
 To connect with mysql 
@@ -21,9 +22,13 @@ mysql = MySQL(app)
 based on which page you are going. 
 
 To run the file
+
 set in your terminal- 
+
 $env:FLASK_APP = "main.py"
+
 flask run
+
 Then you will get a 127.0.0.1:5000 , click that one
 Now you are on result of this project.
 
